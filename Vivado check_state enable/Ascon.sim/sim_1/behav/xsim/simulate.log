@@ -1,0 +1,7 @@
+Time resolution is 1 ps
+Note: Ciphertext  = BB8311B402AD7127895B94111236BFDC
+Time: 230 ns  Iteration: 0  Process: /testbench/line__90  File: E:/Ôhesis/Vivado projects/Vivado check_state enable/sources/testbench.vhd
+Note: Tag  = 5B0E104F3341062956D3243F10CFA21F
+Time: 360 ns  Iteration: 0  Process: /testbench/line__90  File: E:/Ôhesis/Vivado projects/Vivado check_state enable/sources/testbench.vhd
+Note: Hash 256  = F8AA49572E4879E7ECA2C7C37A8BD6B3F79CCBFA2DB31923E273195A525D7684
+Time: 890 ns  Iteration: 0  Process: /testbench/ASCONTestBench/line__61  File: E:/Ôhesis/Vivado projects/Vivado check_state enable/sources/Ascon.vhd
