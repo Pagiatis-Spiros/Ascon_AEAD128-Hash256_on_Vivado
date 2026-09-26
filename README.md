@@ -1,6 +1,6 @@
 
 ## Σχεδιασμός και Ανάπτυξη Συστήματος Ασφάλειας, σε Υλικό
-##Παγιάτης Σπυρίδων
+## Παγιάτης Σπυρίδων
 ![enter image description here](https://github.com/Pagiatis-Spiros/Ascon_AEAD128-Hash256_on_Vivado/blob/main/photos/sp1.png?raw=true)
 
 ![enter image description here](https://github.com/Pagiatis-Spiros/Ascon_AEAD128-Hash256_on_Vivado/blob/main/photos/sp2.png?raw=true)
