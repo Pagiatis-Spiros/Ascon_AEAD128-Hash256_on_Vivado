@@ -1,0 +1,295 @@
+
+*** Running vivado
+    with args -log ASCON.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source ASCON.tcl
+
+
+
+****** Vivado v2025.2 (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Sat Jun 27 21:27:31 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source ASCON.tcl -notrace
+create_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:08 . Memory (MB): peak = 526.301 ; gain = 220.598
+Command: read_checkpoint -auto_incremental -incremental {E:/temp/Vivado projects/Vivado implementation/Ascon.srcs/utils_1/imports/synth_1/ASCON.dcp}
+INFO: [Vivado 12-5825] Read reference checkpoint from E:/temp/Vivado projects/Vivado implementation/Ascon.srcs/utils_1/imports/synth_1/ASCON.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top ASCON -part xc7a75tfgg676-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a75t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a75t'
+INFO: [Device 21-403] Loading part xc7a75tfgg676-1
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 29592
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1276.672 ; gain = 543.020
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'ASCON' [E:/temp/Vivado projects/Vivado implementation/sources/Ascon.vhd:23]
+INFO: [Synth 8-638] synthesizing module 'SBox320b' [E:/temp/Vivado projects/Vivado implementation/sources/SLayer.vhd:37]
+INFO: [Synth 8-638] synthesizing module 'SBox5b' [E:/temp/Vivado projects/Vivado implementation/sources/SLayer.vhd:8]
+INFO: [Synth 8-256] done synthesizing module 'SBox5b' (0#1) [E:/temp/Vivado projects/Vivado implementation/sources/SLayer.vhd:8]
+INFO: [Synth 8-256] done synthesizing module 'SBox320b' (0#1) [E:/temp/Vivado projects/Vivado implementation/sources/SLayer.vhd:37]
+INFO: [Synth 8-638] synthesizing module 'DiffusionLayer' [E:/temp/Vivado projects/Vivado implementation/sources/DiffusionLayer.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'DiffusionLayer' (0#1) [E:/temp/Vivado projects/Vivado implementation/sources/DiffusionLayer.vhd:10]
+INFO: [Synth 8-638] synthesizing module 'FSM' [E:/temp/Vivado projects/Vivado implementation/sources/FSM.vhd:24]
+INFO: [Synth 8-256] done synthesizing module 'FSM' (0#1) [E:/temp/Vivado projects/Vivado implementation/sources/FSM.vhd:24]
+INFO: [Synth 8-256] done synthesizing module 'ASCON' (0#1) [E:/temp/Vivado projects/Vivado implementation/sources/Ascon.vhd:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1404.531 ; gain = 670.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1404.531 ; gain = 670.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1404.531 ; gain = 670.879
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.070 . Memory (MB): peak = 1404.531 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [E:/temp/Vivado projects/Vivado implementation/sources/timingChecking.xdc]
+Finished Parsing XDC File [E:/temp/Vivado projects/Vivado implementation/sources/timingChecking.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1451.746 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.042 . Memory (MB): peak = 1451.746 ; gain = 0.000
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 1451.746 ; gain = 718.094
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a75tfgg676-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 1451.746 ; gain = 718.094
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 1451.746 ; gain = 718.094
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'FSMState_reg' in module 'FSM'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                            00000 |                            00000
+               initround |                            00001 |                            00001
+                initover |                            00010 |                            00010
+          initfinalstage |                            00011 |                            00011
+        absorbfinalcheck |                            00100 |                            00110
+                perround |                            00101 |                            00100
+              absorbover |                            00110 |                            00101
+               absorbend |                            00111 |                            00111
+               perround2 |                            01000 |                            01010
+                  tagfin |                            01001 |                            01100
+                hashinit |                            01010 |                            01101
+               hashround |                            01011 |                            01110
+                 hashmsg |                            01100 |                            01111
+              hashmsgfin |                            01101 |                            10001
+                 hashsh1 |                            01110 |                            10010
+                 hashsh2 |                            01111 |                            10011
+                 hashsh3 |                            10000 |                            10100
+                 hashsh4 |                            10001 |                            10101
+                  finall |                            10010 |                            10110
+                    last |                            10011 |                            10111
+            hashroundfin |                            10100 |                            10000
+              encodeover |                            10101 |                            01001
+         encodeoverfinal |                            10110 |                            01011
+                     tag |                            10111 |                            01000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'FSMState_reg' using encoding 'sequential' in module 'FSM'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1451.746 ; gain = 718.094
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    4 Bit       Adders := 1     
++---XORs : 
+	   2 Input    128 Bit         XORs := 3     
+	   3 Input     64 Bit         XORs := 5     
+	   2 Input     64 Bit         XORs := 2     
+	   2 Input      8 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 130   
+	   3 Input      1 Bit         XORs := 128   
+	   4 Input      1 Bit         XORs := 64    
+	   5 Input      1 Bit         XORs := 192   
++---Registers : 
+	              320 Bit    Registers := 1     
+	              256 Bit    Registers := 1     
+	              128 Bit    Registers := 2     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input  320 Bit        Muxes := 1     
+	  13 Input  320 Bit        Muxes := 1     
+	   5 Input  256 Bit        Muxes := 1     
+	   5 Input  128 Bit        Muxes := 1     
+	   2 Input    7 Bit        Muxes := 1     
+	  13 Input    7 Bit        Muxes := 1     
+	   2 Input    5 Bit        Muxes := 9     
+	  24 Input    5 Bit        Muxes := 3     
+	   7 Input    5 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 4     
+	   3 Input    4 Bit        Muxes := 1     
+	  24 Input    4 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 3     
+	  24 Input    3 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 8     
+	   7 Input    1 Bit        Muxes := 1     
+	  24 Input    1 Bit        Muxes := 10    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 180 (col length:80)
+BRAMs: 210 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1505.727 ; gain = 772.074
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 1611.312 ; gain = 877.660
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:39 ; elapsed = 00:00:41 . Memory (MB): peak = 1695.637 ; gain = 961.984
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:40 ; elapsed = 00:00:42 . Memory (MB): peak = 1713.602 ; gain = 979.949
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:46 ; elapsed = 00:00:47 . Memory (MB): peak = 1893.742 ; gain = 1160.090
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:46 ; elapsed = 00:00:47 . Memory (MB): peak = 1893.742 ; gain = 1160.090
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:46 ; elapsed = 00:00:48 . Memory (MB): peak = 1893.742 ; gain = 1160.090
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:46 ; elapsed = 00:00:48 . Memory (MB): peak = 1893.742 ; gain = 1160.090
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:46 ; elapsed = 00:00:48 . Memory (MB): peak = 1893.742 ; gain = 1160.090
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:46 ; elapsed = 00:00:48 . Memory (MB): peak = 1893.742 ; gain = 1160.090
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |BUFG  |     1|
+|2     |LUT2  |   132|
+|3     |LUT3  |   233|
+|4     |LUT4  |   237|
+|5     |LUT5  |   548|
+|6     |LUT6  |   534|
+|7     |MUXF7 |     4|
+|8     |FDRE  |   868|
+|9     |IBUF  |   134|
+|10    |OBUF  |    12|
+|11    |OBUFT |   128|
++------+------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:46 ; elapsed = 00:00:48 . Memory (MB): peak = 1893.742 ; gain = 1160.090
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:34 ; elapsed = 00:00:45 . Memory (MB): peak = 1893.742 ; gain = 1112.875
+Synthesis Optimization Complete : Time (s): cpu = 00:00:46 ; elapsed = 00:00:48 . Memory (MB): peak = 1893.742 ; gain = 1160.090
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.036 . Memory (MB): peak = 1902.879 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1906.594 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 352e1d76
+INFO: [Common 17-83] Releasing license: Synthesis
+32 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:52 ; elapsed = 00:00:55 . Memory (MB): peak = 1906.594 ; gain = 1373.781
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1906.594 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'E:/temp/Vivado projects/Vivado implementation/Ascon.runs/synth_1/ASCON.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file ASCON_utilization_synth.rpt -pb ASCON_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Jun 27 21:28:38 2026...
