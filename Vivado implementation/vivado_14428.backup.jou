@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Sat Jun 27 22:08:46 2026
+# Process ID         : 14428
+# Current directory  : E:/Ôhesis/Vivado projects/Vivado implementation
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent21496 E:\Ôhesis\Vivado projects\Vivado implementation\Ascon.xpr
+# Log file           : E:/Ôhesis/Vivado projects/Vivado implementation/vivado.log
+# Journal file       : E:/Ôhesis/Vivado projects/Vivado implementation\vivado.jou
+# Running On         : Dell-3793
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 19045
+# Processor Detail   : Intel(R) Core(TM) i5-1035G1 CPU @ 1.00GHz
+# CPU Frequency      : 1190 MHz
+# CPU Physical cores : 4
+# CPU Logical cores  : 8
+# Host memory        : 12640 MB
+# Swap memory        : 12884 MB
+# Total Virtual      : 25525 MB
+# Available Virtual  : 16070 MB
+#-----------------------------------------------------------
+start_gui
+open_project {E:/Ôhesis/Vivado projects/Vivado implementation/Ascon.xpr}
+update_compile_order -fileset sources_1
+open_run impl_1
+close_design
+close_project

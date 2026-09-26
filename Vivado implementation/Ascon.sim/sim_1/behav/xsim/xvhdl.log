@@ -1,0 +1,10 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Ôhesis/Vivado projects/Vivado implementation/sources/Ascon_pkg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Ôhesis/Vivado projects/Vivado implementation/sources/SLayer.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'SBox5b'
+INFO: [VRFC 10-3107] analyzing entity 'SBox320b'
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Ôhesis/Vivado projects/Vivado implementation/sources/DiffusionLayer.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'DiffusionLayer'
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Ôhesis/Vivado projects/Vivado implementation/sources/FSM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'FSM'
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Ôhesis/Vivado projects/Vivado implementation/sources/Ascon.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ASCON'

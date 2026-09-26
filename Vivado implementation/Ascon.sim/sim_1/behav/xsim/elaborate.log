@@ -1,0 +1,22 @@
+Vivado Simulator v2025.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/AMDDesignTools/2025.2/Vivado/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ASCON_behav xil_defaultlib.ASCON -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package xil_defaultlib.ascon_pkg
+Compiling package ieee.std_logic_textio
+Compiling architecture sboxarch of entity xil_defaultlib.SBox5b [sbox5b_default]
+Compiling architecture sboxarch of entity xil_defaultlib.SBox320b [sbox320b_default]
+Compiling architecture diffusion of entity xil_defaultlib.DiffusionLayer [diffusionlayer_default]
+Compiling architecture behavioral of entity xil_defaultlib.FSM [fsm_default]
+Compiling architecture asconarch of entity xil_defaultlib.ascon
+Built simulation snapshot ASCON_behav
